@@ -38,7 +38,7 @@ hesab.onclick = () => {
     } else if (bmi < 41) {
         netice = `Siz 3-cü dərəcəli artıq çəkidən əziyyət çəkirsiniz. ${resultCox.toFixed(2)} kq ${azCox} cekiniz var`;
     } else if (bmi >= 41) {
-        netice = `Siz 4-cü dərəcəli artıq çəkidən əziyyət çəkirsini. ${resultCox.toFixed(2)} kq ${azCox} cekiniz var`;
+        netice = `Siz 4-cü dərəcəli artıq çəkidən əziyyət çəkirsiniz. ${resultCox.toFixed(2)} kq ${azCox} cekiniz var`;
     } else {
         netice = 'Xanaları düzgün doldurun';
     }
